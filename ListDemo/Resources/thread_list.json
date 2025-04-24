@@ -1,0 +1,3132 @@
+{
+    "statusCode": 200,
+    "success": true,
+    "message": "Thread fetched successfully.",
+    "data": {
+        "threads": [
+            {
+                "id": 805,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi {user_2}   {user_1}  help {user_1}   hello how are you {user_-1}  {user_15} hello {user_41} ",
+                "mentions_json": [
+                    2,
+                    1,
+                    1,
+                    -1,
+                    15,
+                    41
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-22T17:02:55.000Z",
+                "created_at": "2025-04-22T17:01:20.000Z",
+                "updated_at": "2025-04-22T17:02:55.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    },
+                    {
+                        "id": 1,
+                        "name": "William John"
+                    },
+                    {
+                        "id": 1,
+                        "name": "William John"
+                    },
+                    {
+                        "id": -1,
+                        "name": "All"
+                    },
+                    {
+                        "id": 15,
+                        "name": "Sagar Gohel"
+                    },
+                    {
+                        "id": 41,
+                        "name": "Ravi Patel"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 797,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi hi {user_2} ",
+                "mentions_json": [
+                    2
+                ],
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1745336854230_1745336856840.jpeg",
+                        "file_original_name": "1745336854230.jpg"
+                    },
+                    {
+                        "file_name": "1745336854246_1745336856841.jpeg",
+                        "file_original_name": "1745336854246.jpg"
+                    },
+                    {
+                        "file_name": "1745336854374_1745336856841.jpeg",
+                        "file_original_name": "1745336854374.jpg"
+                    },
+                    {
+                        "file_name": "1745336854376_1745336856841.pdf",
+                        "file_original_name": "1745336854376.pdf"
+                    }
+                ],
+                "is_edited": 1,
+                "last_edit_time": "2025-04-22T17:22:43.000Z",
+                "created_at": "2025-04-22T15:47:37.000Z",
+                "updated_at": "2025-04-22T17:22:42.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    }
+                ],
+                "replies": [
+                    {
+                        "id": 798,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 797,
+                        "user_id": 3,
+                        "message": "{user_3} nice",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {
+                            "2": {
+                                "3": "2025-04-22T15:48:45.531Z"
+                            }
+                        },
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T15:48:39.000Z",
+                        "updated_at": "2025-04-22T15:48:45.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [
+                            {
+                                "emoji": "👍",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-22T15:48:45.531Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    }
+                ],
+                "reactions": []
+            },
+            {
+                "id": 795,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi {user_15}  hello",
+                "mentions_json": [
+                    15
+                ],
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1745336213232_1745336215801.jpeg",
+                        "file_original_name": "1745336213232.jpg"
+                    },
+                    {
+                        "file_name": "1745336213232_1745336215802.jpeg",
+                        "file_original_name": "1745336213232.jpg"
+                    },
+                    {
+                        "file_name": "1745336213232_1745336215805.pdf",
+                        "file_original_name": "1745336213232.pdf"
+                    }
+                ],
+                "is_edited": 1,
+                "last_edit_time": "2025-04-22T17:22:59.000Z",
+                "created_at": "2025-04-22T15:36:56.000Z",
+                "updated_at": "2025-04-22T17:22:58.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 15,
+                        "name": "Sagar Gohel"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 756,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi {user_-1}  , How are you doing? I hope everything is going well {user_76} {user_41} ",
+                "mentions_json": [
+                    -1,
+                    76,
+                    41
+                ],
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-22T08:44:36.346Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-22T08:44:32.000Z",
+                "created_at": "2025-04-22T08:43:49.000Z",
+                "updated_at": "2025-04-22T08:44:36.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": -1,
+                        "name": "All"
+                    },
+                    {
+                        "id": 76,
+                        "name": "David Rivers"
+                    },
+                    {
+                        "id": 41,
+                        "name": "Ravi Patel"
+                    }
+                ],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-22T08:44:36.346Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 752,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi {user_76}  ",
+                "mentions_json": [
+                    76
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-22T06:31:47.000Z",
+                "updated_at": "2025-04-22T06:31:47.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 76,
+                        "name": "David Rivers"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 738,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "{user_2}  hi how are you doing?\n\nI hope you’re doing well.",
+                "mentions_json": [
+                    2
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T19:18:05.000Z",
+                "created_at": "2025-04-21T19:17:55.000Z",
+                "updated_at": "2025-04-21T19:18:05.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    }
+                ],
+                "replies": [
+                    {
+                        "id": 743,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 738,
+                        "user_id": 3,
+                        "message": "{user_3} dgfdgdfgfdgdfg",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:49:10.000Z",
+                        "updated_at": "2025-04-22T02:49:10.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 744,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 738,
+                        "user_id": 3,
+                        "message": "{user_3} dfgfdgdfgdfg",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:49:14.000Z",
+                        "updated_at": "2025-04-22T02:49:14.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 745,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 738,
+                        "user_id": 3,
+                        "message": "{user_3} dfggdfgdfgdfgdf",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:49:17.000Z",
+                        "updated_at": "2025-04-22T02:49:17.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 746,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 738,
+                        "user_id": 3,
+                        "message": "{user_3} dfgfgfdgfg",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:49:21.000Z",
+                        "updated_at": "2025-04-22T02:49:21.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 747,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 738,
+                        "user_id": 3,
+                        "message": "{user_3} dfgfggdgdfgdfg",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:49:25.000Z",
+                        "updated_at": "2025-04-22T02:49:25.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    }
+                ],
+                "reactions": []
+            },
+            {
+                "id": 737,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "{user_15} hi",
+                "mentions_json": [
+                    15
+                ],
+                "reactions_json": {
+                    "8": {
+                        "3": "2025-04-22T08:17:32.885Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T18:56:53.000Z",
+                "created_at": "2025-04-21T18:56:41.000Z",
+                "updated_at": "2025-04-22T08:47:01.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 15,
+                        "name": "Sagar Gohel"
+                    }
+                ],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "🛑",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-22T08:17:32.885Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 736,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "{user_15} hi",
+                "mentions_json": [
+                    15
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T18:56:23.000Z",
+                "created_at": "2025-04-21T18:56:10.000Z",
+                "updated_at": "2025-04-21T18:56:23.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 15,
+                        "name": "Sagar Gohel"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 735,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "{user_15} {user_16} {user_-1}  {user_1} {user_2}",
+                "mentions_json": [
+                    15,
+                    16,
+                    -1,
+                    1,
+                    2
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T18:37:09.000Z",
+                "updated_at": "2025-04-21T18:37:09.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 15,
+                        "name": "Sagar Gohel"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Ben Parker"
+                    },
+                    {
+                        "id": -1,
+                        "name": "All"
+                    },
+                    {
+                        "id": 1,
+                        "name": "William John"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 733,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi {user_1}  everything {user_16} ",
+                "mentions_json": [
+                    1,
+                    16
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T16:58:58.000Z",
+                "created_at": "2025-04-21T16:58:40.000Z",
+                "updated_at": "2025-04-22T08:17:23.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 1,
+                        "name": "William John"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Ben Parker"
+                    }
+                ],
+                "replies": [
+                    {
+                        "id": 734,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 733,
+                        "user_id": 3,
+                        "message": "{user_3}  hey {user_93}  buddy {user_46} {user_-1} ",
+                        "mentions_json": [
+                            3,
+                            93,
+                            46,
+                            -1
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 1,
+                        "last_edit_time": "2025-04-21T16:59:48.000Z",
+                        "created_at": "2025-04-21T16:59:33.000Z",
+                        "updated_at": "2025-04-21T16:59:48.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            },
+                            {
+                                "id": 93,
+                                "name": "Calista Ramirez"
+                            },
+                            {
+                                "id": 46,
+                                "name": "Nick Johnson"
+                            },
+                            {
+                                "id": -1,
+                                "name": "All"
+                            }
+                        ]
+                    }
+                ],
+                "reactions": []
+            },
+            {
+                "id": 732,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "{user_2} hi how are you {user_15} ?\n\nI hope {user_-1} fine now",
+                "mentions_json": [
+                    2,
+                    15,
+                    -1
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T16:54:00.000Z",
+                "updated_at": "2025-04-21T16:54:00.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    },
+                    {
+                        "id": 15,
+                        "name": "Sagar Gohel"
+                    },
+                    {
+                        "id": -1,
+                        "name": "All"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 731,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": " {user_2} )38388 eiid {user_2} ;)₹;",
+                "mentions_json": [
+                    2,
+                    2
+                ],
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T16:49:37.000Z",
+                "updated_at": "2025-04-21T16:49:37.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 728,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Pdf",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "dotson_wc2_1745237615827.*",
+                        "file_original_name": "Dotson.WC2.pdf"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T12:13:35.000Z",
+                "updated_at": "2025-04-21T12:13:35.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 723,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 64,
+                "message": "dd",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T10:36:23.000Z",
+                "updated_at": "2025-04-21T10:36:23.000Z",
+                "user": {
+                    "id": 64,
+                    "first_name": "samson",
+                    "last_name": "sam",
+                    "profile_pic": null,
+                    "professional_title": "sam"
+                },
+                "mention_list": [],
+                "replies": [
+                    {
+                        "id": 725,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 723,
+                        "user_id": 3,
+                        "message": "{user_64} hi ",
+                        "mentions_json": [
+                            64
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-21T10:49:03.000Z",
+                        "updated_at": "2025-04-21T10:49:03.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 64,
+                                "name": "samson sam"
+                            }
+                        ]
+                    }
+                ],
+                "reactions": []
+            },
+            {
+                "id": 705,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 64,
+                "message": "1\r\n32",
+                "mentions_json": null,
+                "reactions_json": {
+                    "1": {
+                        "3": "2025-04-21T10:49:26.617Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T09:09:31.000Z",
+                "updated_at": "2025-04-21T10:49:26.000Z",
+                "user": {
+                    "id": 64,
+                    "first_name": "samson",
+                    "last_name": "sam",
+                    "profile_pic": null,
+                    "professional_title": "sam"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "✅",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-21T10:49:26.617Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 704,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 64,
+                "message": "1\r\n2",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T09:06:24.000Z",
+                "updated_at": "2025-04-21T09:06:24.000Z",
+                "user": {
+                    "id": 64,
+                    "first_name": "samson",
+                    "last_name": "sam",
+                    "profile_pic": null,
+                    "professional_title": "sam"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 703,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 64,
+                "message": "1\r\n2",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-21T09:06:14.000Z",
+                "updated_at": "2025-04-21T09:06:14.000Z",
+                "user": {
+                    "id": 64,
+                    "first_name": "samson",
+                    "last_name": "sam",
+                    "profile_pic": null,
+                    "professional_title": "sam"
+                },
+                "mention_list": [],
+                "replies": [
+                    {
+                        "id": 714,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 703,
+                        "user_id": 3,
+                        "message": "{user_64}   Hi how are you",
+                        "mentions_json": [
+                            64
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": [
+                            {
+                                "file_name": "1745227416097_1745227418429.jpeg",
+                                "file_original_name": "1745227416097.jpg"
+                            }
+                        ],
+                        "is_edited": 1,
+                        "last_edit_time": "2025-04-21T11:38:37.000Z",
+                        "created_at": "2025-04-21T09:23:38.000Z",
+                        "updated_at": "2025-04-21T11:38:36.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 64,
+                                "name": "samson sam"
+                            }
+                        ]
+                    }
+                ],
+                "reactions": []
+            },
+            {
+                "id": 701,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi {user_2}       Hello hi..",
+                "mentions_json": [
+                    2
+                ],
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1745226380751_1745226381345.jpeg",
+                        "file_original_name": "1745226380751.jpg"
+                    }
+                ],
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T11:40:52.000Z",
+                "created_at": "2025-04-21T09:05:38.000Z",
+                "updated_at": "2025-04-21T11:40:51.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    }
+                ],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 687,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hello hi.. {user_2} ",
+                "mentions_json": [
+                    2
+                ],
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-21T04:09:08.028Z"
+                    },
+                    "3": {
+                        "3": "2025-04-21T04:09:16.927Z"
+                    },
+                    "5": {
+                        "64": "2025-04-21T08:59:04.213Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T11:41:18.000Z",
+                "created_at": "2025-04-21T03:16:56.000Z",
+                "updated_at": "2025-04-21T11:41:17.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 2,
+                        "name": "Michael Doe"
+                    }
+                ],
+                "replies": [
+                    {
+                        "id": 688,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 687,
+                        "user_id": 3,
+                        "message": "{user_3} Hey!!",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {
+                            "1": {
+                                "3": "2025-04-21T08:54:42.150Z"
+                            },
+                            "3": {
+                                "3": "2025-04-21T10:48:13.301Z"
+                            },
+                            "4": {
+                                "3": "2025-04-21T04:10:28.944Z"
+                            },
+                            "5": {
+                                "3": "2025-04-21T10:07:37.328Z"
+                            }
+                        },
+                        "attachments_json": null,
+                        "is_edited": 1,
+                        "last_edit_time": "2025-04-21T11:41:57.000Z",
+                        "created_at": "2025-04-21T03:17:44.000Z",
+                        "updated_at": "2025-04-21T11:42:13.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [
+                            {
+                                "emoji": "✅",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T08:54:42.150Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "✔️",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T10:48:13.301Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "👀",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T04:10:28.944Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "📌",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T10:07:37.328Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 702,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 687,
+                        "user_id": 64,
+                        "message": "1\r\n2",
+                        "mentions_json": null,
+                        "reactions_json": {
+                            "2": {
+                                "3": "2025-04-21T13:19:38.278Z"
+                            }
+                        },
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-21T09:05:39.000Z",
+                        "updated_at": "2025-04-21T13:19:38.000Z",
+                        "user": {
+                            "id": 64,
+                            "first_name": "samson",
+                            "last_name": "sam",
+                            "profile_pic": null,
+                            "professional_title": "sam"
+                        },
+                        "reactions": [
+                            {
+                                "emoji": "👍",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T13:19:38.278Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mention_list": []
+                    }
+                ],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-21T04:09:08.028Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-21T04:09:16.927Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "📌",
+                        "users": [
+                            {
+                                "id": 64,
+                                "first_name": "samson",
+                                "last_name": "sam",
+                                "profile_pic": null,
+                                "professional_title": "sam",
+                                "timestamp": "2025-04-21T08:59:04.213Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 664,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "{user_3}  Hi done got12",
+                "mentions_json": [
+                    3
+                ],
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-21T02:55:58.438Z"
+                    },
+                    "4": {
+                        "3": "2025-04-21T10:10:40.650Z"
+                    }
+                },
+                "attachments_json": [
+                    {
+                        "file_name": "1745204114039_1745204116996.jpeg",
+                        "file_original_name": "1745204114039.jpg"
+                    }
+                ],
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T11:41:27.000Z",
+                "created_at": "2025-04-19T10:28:31.000Z",
+                "updated_at": "2025-04-21T11:41:26.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [
+                    {
+                        "id": 3,
+                        "name": "Mark Andorson"
+                    }
+                ],
+                "replies": [
+                    {
+                        "id": 686,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 664,
+                        "user_id": 3,
+                        "message": "{user_1}   Hi",
+                        "mentions_json": [
+                            1
+                        ],
+                        "reactions_json": {
+                            "2": {
+                                "3": "2025-04-21T03:11:47.873Z"
+                            },
+                            "3": {
+                                "3": "2025-04-21T03:11:52.708Z"
+                            }
+                        },
+                        "attachments_json": null,
+                        "is_edited": 1,
+                        "last_edit_time": "2025-04-21T04:09:34.000Z",
+                        "created_at": "2025-04-21T03:09:09.000Z",
+                        "updated_at": "2025-04-21T10:10:46.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [
+                            {
+                                "emoji": "👍",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T03:11:47.873Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "✔️",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T03:11:52.708Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mention_list": [
+                            {
+                                "id": 1,
+                                "name": "William John"
+                            }
+                        ]
+                    }
+                ],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-21T02:55:58.438Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "👀",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-21T10:10:40.650Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 645,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Ttt",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-18T13:30:01.000Z",
+                "updated_at": "2025-04-18T13:30:01.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 634,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Here is the attachment that you can review.!!",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1744977124225_1744977133209.jpeg",
+                        "file_original_name": "1744977124225.jpg"
+                    },
+                    {
+                        "file_name": "1744977124225_1744977133211.jpeg",
+                        "file_original_name": "1744977124225.jpg"
+                    },
+                    {
+                        "file_name": "1744977124225_1744977133211.jpeg",
+                        "file_original_name": "1744977124225.jpg"
+                    },
+                    {
+                        "file_name": "1744977124225_1744977133212.jpeg",
+                        "file_original_name": "1744977124225.jpg"
+                    },
+                    {
+                        "file_name": "1744977124225_1744977133212.jpeg",
+                        "file_original_name": "1744977124225.jpg"
+                    }
+                ],
+                "is_edited": 1,
+                "last_edit_time": "2025-04-21T11:41:34.000Z",
+                "created_at": "2025-04-18T11:52:13.000Z",
+                "updated_at": "2025-04-21T11:41:33.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [
+                    {
+                        "id": 643,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 634,
+                        "user_id": 3,
+                        "message": "Replaying to Mark Andorson\nMark Andorson was the only ",
+                        "mentions_json": null,
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-18T13:29:38.000Z",
+                        "updated_at": "2025-04-18T13:29:38.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": []
+                    },
+                    {
+                        "id": 644,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 634,
+                        "user_id": 3,
+                        "message": "Replaying to Mark Andorson\nMark Andorson was one ",
+                        "mentions_json": null,
+                        "reactions_json": {
+                            "4": {
+                                "3": "2025-04-21T04:08:41.028Z"
+                            }
+                        },
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-18T13:29:45.000Z",
+                        "updated_at": "2025-04-21T04:08:55.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [
+                            {
+                                "emoji": "👀",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-21T04:08:41.028Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mention_list": []
+                    },
+                    {
+                        "id": 748,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 634,
+                        "user_id": 3,
+                        "message": "{user_3} {user_3} {user_3} fdffdfsdfsd",
+                        "mentions_json": [
+                            3,
+                            3,
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:50:40.000Z",
+                        "updated_at": "2025-04-22T02:50:40.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 749,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 634,
+                        "user_id": 3,
+                        "message": "{user_3} sdfdfsdfsdfdsf",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:50:47.000Z",
+                        "updated_at": "2025-04-22T02:50:47.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 750,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 634,
+                        "user_id": 3,
+                        "message": "{user_3} reredfddfdsfdsfsffd",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-22T02:50:57.000Z",
+                        "updated_at": "2025-04-22T02:50:57.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    }
+                ],
+                "reactions": []
+            },
+            {
+                "id": 633,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "1\n2\n3",
+                "mentions_json": null,
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-21T04:08:35.676Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-18T11:42:56.000Z",
+                "updated_at": "2025-04-21T04:08:35.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-21T04:08:35.676Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 530,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The first time ",
+                "mentions_json": null,
+                "reactions_json": {
+                    "1": {
+                        "3": "2025-04-18T11:39:23.468Z"
+                    },
+                    "3": {
+                        "3": "2025-04-18T11:14:47.434Z"
+                    },
+                    "5": {
+                        "3": "2025-04-18T10:16:51.998Z"
+                    },
+                    "12": {
+                        "3": "2025-04-18T11:40:11.290Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-17T12:29:34.000Z",
+                "updated_at": "2025-04-18T11:40:11.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [
+                    {
+                        "id": 546,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 530,
+                        "user_id": 3,
+                        "message": "The first time the team had played together was the first game in which they played in a tournament in the United Kingdom in the early ",
+                        "mentions_json": null,
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-17T13:18:12.000Z",
+                        "updated_at": "2025-04-17T13:18:12.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": []
+                    }
+                ],
+                "reactions": [
+                    {
+                        "emoji": "✅",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T11:39:23.468Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T11:14:47.434Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "📌",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T10:16:51.998Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "📅",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T11:40:11.290Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 529,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The only ",
+                "mentions_json": null,
+                "reactions_json": {
+                    "1": {
+                        "3": "2025-04-18T10:41:44.874Z"
+                    },
+                    "3": {
+                        "3": "2025-04-18T11:14:58.307Z"
+                    },
+                    "4": {
+                        "3": "2025-04-18T10:37:04.472Z"
+                    }
+                },
+                "attachments_json": [
+                    {
+                        "file_name": "1744892316054_1744892319236.jpeg",
+                        "file_original_name": "1744892316054.jpg"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-17T12:18:39.000Z",
+                "updated_at": "2025-04-18T11:14:58.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "✅",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T10:41:44.874Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T11:14:58.307Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "👀",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T10:37:04.472Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 481,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The only ",
+                "mentions_json": null,
+                "reactions_json": {
+                    "1": {
+                        "3": "2025-04-16T14:30:43.990Z"
+                    },
+                    "3": {
+                        "3": "2025-04-16T14:10:02.738Z"
+                    },
+                    "5": {
+                        "3": "2025-04-16T14:33:34.445Z"
+                    },
+                    "6": {
+                        "3": "2025-04-16T14:30:17.301Z"
+                    },
+                    "7": {
+                        "3": "2025-04-16T14:33:37.932Z"
+                    },
+                    "8": {
+                        "3": "2025-04-16T14:29:00.445Z"
+                    },
+                    "9": {
+                        "3": "2025-04-16T14:33:41.337Z"
+                    },
+                    "11": {
+                        "3": "2025-04-16T14:33:45.292Z"
+                    },
+                    "26": {
+                        "3": "2025-04-17T11:50:46.434Z"
+                    },
+                    "30": {
+                        "3": "2025-04-17T11:50:41.232Z"
+                    },
+                    "31": {
+                        "3": "2025-04-17T11:50:34.855Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T13:34:55.000Z",
+                "updated_at": "2025-04-17T11:50:46.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [
+                    {
+                        "id": 494,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 481,
+                        "user_id": 3,
+                        "message": "Replaying to Mark Andorson\nMark Andorson new replying",
+                        "mentions_json": null,
+                        "reactions_json": {
+                            "3": {
+                                "3": "2025-04-16T18:32:57.643Z"
+                            },
+                            "5": {
+                                "3": "2025-04-16T18:33:02.832Z"
+                            },
+                            "7": {
+                                "3": "2025-04-16T14:29:15.104Z"
+                            },
+                            "8": {
+                                "3": "2025-04-16T14:29:07.412Z"
+                            }
+                        },
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-16T14:19:41.000Z",
+                        "updated_at": "2025-04-16T18:33:02.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [
+                            {
+                                "emoji": "✔️",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-16T18:32:57.643Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "📌",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-16T18:33:02.832Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "👌",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-16T14:29:15.104Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "🛑",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-16T14:29:07.412Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mention_list": []
+                    }
+                ],
+                "reactions": [
+                    {
+                        "emoji": "✅",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:30:43.990Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:10:02.738Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "📌",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:33:34.445Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "🆗",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:30:17.301Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "👌",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:33:37.932Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "🛑",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:29:00.445Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "⚠️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:33:41.337Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "🔄",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:33:45.292Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "🙌",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-17T11:50:46.434Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "🙏",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-17T11:50:41.232Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "❤️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-17T11:50:34.855Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 478,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": " Tttt",
+                "mentions_json": null,
+                "reactions_json": {
+                    "1": {
+                        "3": "2025-04-16T18:32:24.862Z"
+                    },
+                    "3": {
+                        "3": "2025-04-16T14:26:16.020Z"
+                    },
+                    "8": {
+                        "3": "2025-04-16T14:28:52.452Z"
+                    },
+                    "26": {
+                        "3": "2025-04-17T11:52:52.235Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T13:30:40.000Z",
+                "updated_at": "2025-04-17T11:52:52.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [
+                    {
+                        "id": 495,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 478,
+                        "user_id": 3,
+                        "message": "Replaying to Mark Andorson\nMark Andorson  newscast",
+                        "mentions_json": null,
+                        "reactions_json": {
+                            "2": {
+                                "3": "2025-04-16T14:34:34.069Z"
+                            },
+                            "7": {
+                                "3": "2025-04-17T12:06:55.876Z"
+                            }
+                        },
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-16T14:34:20.000Z",
+                        "updated_at": "2025-04-17T12:06:55.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [
+                            {
+                                "emoji": "👍",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-16T14:34:34.069Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "emoji": "👌",
+                                "users": [
+                                    {
+                                        "id": 3,
+                                        "first_name": "Mark",
+                                        "last_name": "Andorson",
+                                        "profile_pic": null,
+                                        "professional_title": "Dstt",
+                                        "timestamp": "2025-04-17T12:06:55.876Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "mention_list": []
+                    }
+                ],
+                "reactions": [
+                    {
+                        "emoji": "✅",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T18:32:24.862Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:26:16.020Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "🛑",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:28:52.452Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "🙌",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-17T11:52:52.235Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 468,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The first time ",
+                "mentions_json": null,
+                "reactions_json": {
+                    "5": {
+                        "3": "2025-04-16T14:11:28.116Z"
+                    }
+                },
+                "attachments_json": [
+                    {
+                        "file_name": "1744808932207_1744808933492.jpeg",
+                        "file_original_name": "1744808932207.jpg"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T13:08:53.000Z",
+                "updated_at": "2025-04-16T14:11:28.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "📌",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-16T14:11:28.116Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 467,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Tttt",
+                "mentions_json": null,
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-17T09:02:25.488Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T13:08:21.000Z",
+                "updated_at": "2025-04-17T09:02:25.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-17T09:02:25.488Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 454,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Dfdfdhhtttyyjn uuuu",
+                "mentions_json": null,
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-19T10:49:54.809Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-19T10:51:41.000Z",
+                "created_at": "2025-04-16T10:53:33.000Z",
+                "updated_at": "2025-04-19T10:51:41.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-19T10:49:54.809Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 453,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The first time the the United Nations had ",
+                "mentions_json": null,
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-22T08:20:06.454Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:52:08.000Z",
+                "updated_at": "2025-04-22T08:20:06.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-22T08:20:06.454Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 452,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The only way I I could do that was if you had to ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:52:03.000Z",
+                "updated_at": "2025-04-16T10:52:03.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 450,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "I’m I’m just fed",
+                "mentions_json": null,
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-18T11:16:06.200Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-19T10:50:56.000Z",
+                "created_at": "2025-04-16T10:51:05.000Z",
+                "updated_at": "2025-04-19T10:50:56.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T11:16:06.200Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 447,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Tttt nnnnnn",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 1,
+                "last_edit_time": "2025-04-19T10:51:04.000Z",
+                "created_at": "2025-04-16T10:46:04.000Z",
+                "updated_at": "2025-04-19T10:51:03.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 446,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": " The first time ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:45:53.000Z",
+                "updated_at": "2025-04-16T10:45:53.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 445,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The only ",
+                "mentions_json": null,
+                "reactions_json": {
+                    "2": {
+                        "3": "2025-04-18T11:15:29.376Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:44:09.000Z",
+                "updated_at": "2025-04-18T11:15:29.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "👍",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T11:15:29.376Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 444,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": " Yu",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:42:10.000Z",
+                "updated_at": "2025-04-16T10:42:10.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 443,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Ddd",
+                "mentions_json": null,
+                "reactions_json": {
+                    "1": {
+                        "3": "2025-04-18T11:15:55.918Z"
+                    },
+                    "3": {
+                        "3": "2025-04-22T08:20:02.247Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:42:00.000Z",
+                "updated_at": "2025-04-22T08:20:02.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "✅",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-18T11:15:55.918Z"
+                            }
+                        ]
+                    },
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-22T08:20:02.247Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 442,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:40:29.000Z",
+                "updated_at": "2025-04-16T10:40:29.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 441,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": " Tttttttt",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:35:58.000Z",
+                "updated_at": "2025-04-16T10:35:58.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 440,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The first first first time ",
+                "mentions_json": null,
+                "reactions_json": {
+                    "3": {
+                        "3": "2025-04-17T12:50:48.772Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-16T10:30:34.000Z",
+                "updated_at": "2025-04-17T12:50:48.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-17T12:50:48.772Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 399,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "Hi \nnew added",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "jpeg_20250416_005648_2406770169708273393_1744745298246.*",
+                        "file_original_name": "JPEG_20250416_005648_2406770169708273393.jpg"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-15T19:28:18.000Z",
+                "updated_at": "2025-04-15T19:28:18.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 337,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "y is it a bad ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1744694648596_1744694662498.jpeg",
+                        "file_original_name": "1744694648596.jpg"
+                    },
+                    {
+                        "file_name": "1744694648596_1744694662499.jpeg",
+                        "file_original_name": "1744694648596.jpg"
+                    },
+                    {
+                        "file_name": "1744694648596_1744694662499.jpeg",
+                        "file_original_name": "1744694648596.jpg"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-15T05:24:22.000Z",
+                "updated_at": "2025-04-15T05:24:22.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 336,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "I Type your comment here...",
+                "mentions_json": null,
+                "reactions_json": {
+                    "3": {
+                        "3": "2025-04-21T04:08:27.559Z"
+                    }
+                },
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-15T05:20:48.000Z",
+                "updated_at": "2025-04-21T04:08:27.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": [
+                    {
+                        "emoji": "✔️",
+                        "users": [
+                            {
+                                "id": 3,
+                                "first_name": "Mark",
+                                "last_name": "Andorson",
+                                "profile_pic": null,
+                                "professional_title": "Dstt",
+                                "timestamp": "2025-04-21T04:08:27.559Z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 335,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The first time the team had played together was the last game ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1744694347048_1744694362206.jpeg",
+                        "file_original_name": "1744694347048.jpg"
+                    },
+                    {
+                        "file_name": "1744694347048_1744694362207.jpeg",
+                        "file_original_name": "1744694347048.jpg"
+                    },
+                    {
+                        "file_name": "1744694347048_1744694362207.jpeg",
+                        "file_original_name": "1744694347048.jpg"
+                    },
+                    {
+                        "file_name": "1744694347048_1744694362208.jpeg",
+                        "file_original_name": "1744694347048.jpg"
+                    },
+                    {
+                        "file_name": "1744694347048_1744694362208.jpeg",
+                        "file_original_name": "1744694347048.jpg"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-15T05:19:22.000Z",
+                "updated_at": "2025-04-15T05:19:22.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 333,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The only only way I could do that was if you were in a meeting with the ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1744694053726_img_0_1744694058915.jpeg",
+                        "file_original_name": "1744694053726_img_0.jpg"
+                    },
+                    {
+                        "file_name": "1744694053726_img_1_1744694058916.jpeg",
+                        "file_original_name": "1744694053726_img_1.jpg"
+                    },
+                    {
+                        "file_name": "1744694053726_img_2_1744694058918.jpeg",
+                        "file_original_name": "1744694053726_img_2.jpg"
+                    },
+                    {
+                        "file_name": "1744694053726_img_3_1744694058919.jpeg",
+                        "file_original_name": "1744694053726_img_3.jpg"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-15T05:14:19.000Z",
+                "updated_at": "2025-04-15T05:14:19.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 332,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The first time the two sides agreed to meet on the issue ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": [
+                    {
+                        "file_name": "1744694021382_img_0_1744694024766.jpeg",
+                        "file_original_name": "1744694021382_img_0.jpg"
+                    }
+                ],
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-15T05:13:44.000Z",
+                "updated_at": "2025-04-15T05:13:44.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 320,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": "The first time ",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-14T13:05:09.000Z",
+                "updated_at": "2025-04-16T13:02:33.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [],
+                "reactions": []
+            },
+            {
+                "id": 312,
+                "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                "parent_id": 0,
+                "user_id": 3,
+                "message": " Fdfdfd",
+                "mentions_json": null,
+                "reactions_json": {},
+                "attachments_json": null,
+                "is_edited": 0,
+                "last_edit_time": null,
+                "created_at": "2025-04-14T12:20:35.000Z",
+                "updated_at": "2025-04-14T12:20:35.000Z",
+                "user": {
+                    "id": 3,
+                    "first_name": "Mark",
+                    "last_name": "Andorson",
+                    "profile_pic": null,
+                    "professional_title": "Dstt"
+                },
+                "mention_list": [],
+                "replies": [
+                    {
+                        "id": 313,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 312,
+                        "user_id": 3,
+                        "message": "{user_3}  was was the only person who was ever in a situation that could be considered as an emergency and was the only one to have a good ",
+                        "mentions_json": [
+                            3
+                        ],
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 1,
+                        "last_edit_time": "2025-04-21T12:13:35.000Z",
+                        "created_at": "2025-04-14T12:39:21.000Z",
+                        "updated_at": "2025-04-21T12:13:35.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": [
+                            {
+                                "id": 3,
+                                "name": "Mark Andorson"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 318,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 312,
+                        "user_id": 3,
+                        "message": "Replaying to Mark Andorson\nMark Andorson new data on how much money you ",
+                        "mentions_json": null,
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-14T13:04:10.000Z",
+                        "updated_at": "2025-04-14T13:04:10.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": []
+                    },
+                    {
+                        "id": 322,
+                        "patient_uuid": "87399072-a131-47ae-bd7a-0f7d9f7d6a11",
+                        "parent_id": 312,
+                        "user_id": 3,
+                        "message": "Replaying to Mark Andorson\nMark Andorson  hhhhhhhyyuuu",
+                        "mentions_json": null,
+                        "reactions_json": {},
+                        "attachments_json": null,
+                        "is_edited": 0,
+                        "last_edit_time": null,
+                        "created_at": "2025-04-14T13:12:45.000Z",
+                        "updated_at": "2025-04-14T13:12:45.000Z",
+                        "user": {
+                            "id": 3,
+                            "first_name": "Mark",
+                            "last_name": "Andorson",
+                            "profile_pic": null,
+                            "professional_title": "Dstt"
+                        },
+                        "reactions": [],
+                        "mention_list": []
+                    }
+                ],
+                "reactions": []
+            }
+        ],
+        "pagination": {
+            "index": 0,
+            "per_page": 50,
+            "total": 49,
+            "total_pages": 1
+        }
+    }
+}
