@@ -9,10 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var tbvHeight: NSLayoutConstraint!
     @IBOutlet weak var tbvThreds: UITableView!
     var threads: [ThreadList] = []
     var expandedThreads: Set<Int> = []
-    
+    var expandedRows: Set<Int> = []
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Threads"
@@ -48,6 +49,8 @@ class ViewController: UIViewController {
         } catch {
             print("Failed to parse JSON:", error)
         }
+        
+        self.tbvThreds.reloadData()
     }
     
     func buildThreadData() -> [(ThreadList, Bool, Bool)] {

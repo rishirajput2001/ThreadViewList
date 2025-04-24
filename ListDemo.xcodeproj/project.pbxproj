@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207CD0172DBA0BFD00697F3E /* ViewMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CD0152DBA0BFD00697F3E /* ViewMoreCell.swift */; };
+		207CD0182DBA0BFD00697F3E /* ViewMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207CD0162DBA0BFD00697F3E /* ViewMoreCell.xib */; };
 		20A422002DB8DEAB0062EDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A421FF2DB8DEAB0062EDEE /* AppDelegate.swift */; };
 		20A422022DB8DEAB0062EDEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A422012DB8DEAB0062EDEE /* SceneDelegate.swift */; };
 		20A422042DB8DEAB0062EDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A422032DB8DEAB0062EDEE /* ViewController.swift */; };
@@ -60,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207CD0152DBA0BFD00697F3E /* ViewMoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMoreCell.swift; sourceTree = "<group>"; };
+		207CD0162DBA0BFD00697F3E /* ViewMoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewMoreCell.xib; sourceTree = "<group>"; };
 		20A421FC2DB8DEAB0062EDEE /* ListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A421FF2DB8DEAB0062EDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20A422012DB8DEAB0062EDEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207CD0132DBA0BAB00697F3E /* ThreadTblCell */ = {
+			isa = PBXGroup;
+			children = (
+				20A422402DB8F46D0062EDEE /* ThreadTblCell.swift */,
+				20A422412DB8F46D0062EDEE /* ThreadTblCell.xib */,
+			);
+			path = ThreadTblCell;
+			sourceTree = "<group>";
+		};
+		207CD0142DBA0BC900697F3E /* ViewMoreCell */ = {
+			isa = PBXGroup;
+			children = (
+				207CD0152DBA0BFD00697F3E /* ViewMoreCell.swift */,
+				207CD0162DBA0BFD00697F3E /* ViewMoreCell.xib */,
+			);
+			path = ViewMoreCell;
+			sourceTree = "<group>";
+		};
 		20A421F32DB8DEAB0062EDEE = {
 			isa = PBXGroup;
 			children = (
@@ -234,8 +256,8 @@
 		20A4223F2DB8F44B0062EDEE /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				20A422402DB8F46D0062EDEE /* ThreadTblCell.swift */,
-				20A422412DB8F46D0062EDEE /* ThreadTblCell.xib */,
+				207CD0142DBA0BC900697F3E /* ViewMoreCell */,
+				207CD0132DBA0BAB00697F3E /* ThreadTblCell */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -392,6 +414,7 @@
 				20A4228F2DB91FDE0062EDEE /* Metropolis-BlackItalic.otf in Resources */,
 				20A4228C2DB91FDE0062EDEE /* Metropolis-MediumItalic.otf in Resources */,
 				20A422842DB91FDE0062EDEE /* Metropolis-Light.otf in Resources */,
+				207CD0182DBA0BFD00697F3E /* ViewMoreCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +442,7 @@
 				20A422432DB8F46D0062EDEE /* ThreadTblCell.swift in Sources */,
 				20A422042DB8DEAB0062EDEE /* ViewController.swift in Sources */,
 				20A422362DB8E97C0062EDEE /* ThreadViewModel.swift in Sources */,
+				207CD0172DBA0BFD00697F3E /* ViewMoreCell.swift in Sources */,
 				20A4223A2DB8EA130062EDEE /* ViewController+Extention.swift in Sources */,
 				20A422002DB8DEAB0062EDEE /* AppDelegate.swift in Sources */,
 				20A422022DB8DEAB0062EDEE /* SceneDelegate.swift in Sources */,

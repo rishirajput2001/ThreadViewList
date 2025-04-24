@@ -19,15 +19,28 @@ class ThreadTblCell: UITableViewCell {
     @IBOutlet weak var leadingView: NSLayoutConstraint!
     @IBOutlet weak var viewRepliesButton: UIButton!
     @IBOutlet weak var vwSmile: UIView!
+    
+    @IBOutlet weak var heightTbvReply: NSLayoutConstraint!
+    @IBOutlet weak var tbvReply: UITableView!
+    
     let attachmentsStack = UIStackView()
     let reactionsStack = UIStackView()
     let replyButton = UIButton(type: .system)
     
+    var viewMoreArray = [ThreadList]()
+//    var viewMoreArray = [ThreadData]()
     
     var onToggleReplies: (() -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        tbvReply.dataSource = self
+        tbvReply.delegate = self
+        let nib = UINib(nibName: "ViewMoreCell", bundle: nil)
+        tbvReply.register(nib, forCellReuseIdentifier: "ViewMoreCell")
+//        tbvReply.estimatedRowHeight = 60
+        
         setupViews()
         lblFirstName.font = UIFont(name: "Metropolis-Bold", size: 14.0)
         lblCreateTime.font = UIFont(name: "Metropolis-Light", size: 10.0)
@@ -65,50 +78,36 @@ class ThreadTblCell: UITableViewCell {
         viewRepliesButton.setTitleColor(.systemBlue, for: .normal)
         viewRepliesButton.addTarget(self, action: #selector(toggleReplies), for: .touchUpInside)
     }
+
     
     func configure(with thread: ThreadList, isReply: Bool = false, isExpanded: Bool = false, showReplyButton: Bool = false) {
+        
+        viewMoreArray = thread.replies
         lblFirstName.text = "\(thread.user.firstName) \(thread.user.lastName)"
         lblCreateTime.text = formattedDate(thread.createdAt)
-       
         lblDes.text = thread.message
-        
+
+        // Show/hide reply section
         viewRepliesButton.isHidden = !showReplyButton
-        viewRepliesButton.setTitle(isExpanded ? "Hide Replies" : "View 3 more replies", for: .normal)
+        tbvReply.isHidden = !isExpanded
+
+        viewRepliesButton.setTitle(isExpanded ? "Hide Replies" : "View \(thread.replies.count) more replies", for: .normal)
         viewRepliesButton.titleLabel?.font = UIFont(name: "Metropolis-Bold", size: 14.0)
         viewRepliesButton.setTitleColor(.black, for: .normal)
-        if showReplyButton == false {
-            heightBtn.constant = 0
-        }else {
-            heightBtn.constant = 15
-        }
-        
-        reactionsStack.arrangedSubviews.forEach { $0.removeFromSuperview() }
-        
-        if let reactions = thread.reactions {
-            for reaction in reactions {
-                let emojiLabel = UILabel()
-                emojiLabel.text = reaction.emoji + " \(reaction.users.count)"
-                emojiLabel.font = .systemFont(ofSize: 12)
-                emojiLabel.backgroundColor = UIColor.systemGray5
-                emojiLabel.layer.cornerRadius = 4
-                emojiLabel.clipsToBounds = true
-                reactionsStack.addArrangedSubview(emojiLabel)
-            }
-        }
-        attachmentsStack.arrangedSubviews.forEach { $0.removeFromSuperview() }
-        if let attachments = thread.attachmentsJson {
-            for file in attachments {
-                let button = UIButton(type: .system)
-                button.setTitle(file.fileOriginalName, for: .normal)
-                button.titleLabel?.font = .systemFont(ofSize: 12)
-                button.backgroundColor = .systemGray6
-                button.layer.cornerRadius = 6
-                attachmentsStack.addArrangedSubview(button)
-            }
-        }
-        
+
+        heightBtn.constant = showReplyButton ? 15 : 0
+
+        // Force reload and layout so contentSize is available immediately
+        tbvReply.reloadData()
+        tbvReply.layoutIfNeeded()
+
+        // Set height after layout
+        heightTbvReply.constant = isExpanded ? tbvReply.contentSize.height : 0
+
         contentView.backgroundColor = isReply ? UIColor.systemGray6 : .white
     }
+
+
     
     let tenMinutesAgo = Calendar.current.date(byAdding: .minute, value: -10, to: Date())!
     let isoFormatter = ISO8601DateFormatter()
@@ -125,5 +124,25 @@ class ThreadTblCell: UITableViewCell {
 
     @objc private func toggleReplies() {
         onToggleReplies?()
+    }
+}
+
+extension ThreadTblCell: UITableViewDataSource,UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewMoreArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tbvReply.dequeueReusableCell(withIdentifier: "ViewMoreCell", for: indexPath) as! ViewMoreCell
+         
+        let reply =
+        cell.lblFirstname.text = viewMoreArray[indexPath.row].user.firstName
+        cell.lblDescription.text = viewMoreArray[indexPath.row].message
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
     }
 }
