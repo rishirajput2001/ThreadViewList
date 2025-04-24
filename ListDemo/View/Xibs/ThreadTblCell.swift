@@ -45,7 +45,6 @@ class ThreadTblCell: UITableViewCell {
         contentView.layer.cornerRadius = 12
         contentView.layer.masksToBounds = true
         
-        
         attachmentsStack.axis = .horizontal
         attachmentsStack.spacing = 8
         attachmentsStack.distribution = .fillEqually
@@ -53,14 +52,9 @@ class ThreadTblCell: UITableViewCell {
         reactionsStack.axis = .horizontal
         reactionsStack.spacing = 4
         
-        replyButton.setTitle("↩️ Reply", for: .normal)
-        replyButton.titleLabel?.font = .systemFont(ofSize: 12)
-        replyButton.setTitleColor(.gray, for: .normal)
-        
         viewRepliesButton.titleLabel?.font = .systemFont(ofSize: 12)
         viewRepliesButton.setTitleColor(.systemBlue, for: .normal)
         viewRepliesButton.addTarget(self, action: #selector(toggleReplies), for: .touchUpInside)
-        
     }
     
     func configure(with thread: ThreadList, isReply: Bool = false, isExpanded: Bool = false, showReplyButton: Bool = false) {
