@@ -18,6 +18,7 @@ class ThreadTblCell: UITableViewCell {
     
     @IBOutlet weak var leadingView: NSLayoutConstraint!
     @IBOutlet weak var viewRepliesButton: UIButton!
+    @IBOutlet weak var vwSmile: UIView!
     let attachmentsStack = UIStackView()
     let reactionsStack = UIStackView()
     let replyButton = UIButton(type: .system)
@@ -31,6 +32,14 @@ class ThreadTblCell: UITableViewCell {
         lblFirstName.font = UIFont(name: "Metropolis-Bold", size: 14.0)
         lblCreateTime.font = UIFont(name: "Metropolis-Light", size: 10.0)
         lblDes.font = UIFont(name: "Metropolis-Medium", size: 12.0)
+        
+        vwSmile.backgroundColor = .white
+        vwSmile.layer.cornerRadius = 13
+        vwSmile.layer.borderWidth = 1
+        vwSmile.layer.borderColor = UIColor.lightGray.cgColor
+        vwSmile.layer.shadowColor = UIColor.black.cgColor
+        vwSmile.layer.shadowOpacity = 0.1
+        vwSmile.layer.shadowOffset = CGSize(width: 1, height: 1)
         
     }
     
