@@ -7,7 +7,7 @@
 
 - Pixel-perfect UI matching the provided Figma design.
 
-- Swift-native architecture using MVVM (if you used it).
+- Swift-native architecture using MVVM.
 
 - Smooth user interactions with efficient state handling.
 
